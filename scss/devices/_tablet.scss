@@ -1,0 +1,235 @@
+@media (min-width: 600px) {
+//   // ##################
+//   // index.html
+//   // ################
+  header {
+  height: 38vh;
+  article{
+  height: 38vh;
+  }
+    figure {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  img {
+    width: 20vh;
+    height: 20vh;
+  }
+  details {
+    li{
+        font-size: 25px;
+      }
+      :nth-child(5){
+        // border: 1px solid $originalDarkGray;
+        padding: 1.5%;
+      }
+  }
+
+
+.about {
+  h2 {
+    font-size: 30px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+.feature {
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 16px;
+  }
+  a {
+    font-size: 16px;
+    padding: 2%;
+  }
+}
+.garally {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  figure{
+    flex-direction: row;
+    column-gap: 3vh;
+    img {
+      width: 10vh;
+      height: 10vh;
+    }
+  }
+}
+.menu {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    padding-bottom: 2vh;
+  }
+  a {
+    padding: 4%;
+    font-size: 15px;
+  }
+}
+
+footer {
+  section {
+    flex-direction: row;
+    column-gap: 2vh;
+    li {
+      font-size: 16px;
+    }
+    figure {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+  a {
+    font-size: 20px;
+
+  }
+  nav {
+    ul{
+      flex-direction: row;
+      column-gap: 3vh;
+    }
+    li {
+      font-size: 16px;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
+  >section {
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 5vh;
+  }
+}
+
+//  // ##################
+// // menu.html
+// // ################
+.menuhtml{
+
+  header {
+    height: 38vh;
+    article {
+      height: 38vh;
+    }
+    div {
+      height: 15vh;
+    }
+    h1 {
+      font-size: 45px;
+    }
+  }
+}
+
+.menupage {
+  img {
+    width: 23vh;
+    height: 17vh;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  li {
+    font-size: 15px;
+  }
+}
+
+.menufooter {
+  padding-top: 3vh;
+}
+
+// // ##################
+// // giftcards.html
+// // ################
+
+
+.giftcardshtml{
+
+  header {
+    height: 38vh;
+    article {
+      height: 38vh;
+      div {
+        height: 15vh;
+      }
+      h1 {
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+
+.giftcardsfooter {
+  article {
+    padding-top: 0;
+
+  }
+}
+
+.giftcards {
+  padding-top: 0vh;
+  article {
+  padding-top: 0vh;
+
+  }
+}
+
+// // ##################
+// // contact.html
+// // ################
+
+.contacthtml{
+  header {
+    height: 38vh;
+    article {
+      height: 38vh;
+      div {
+        height: 15vh;
+      }
+      h1 {
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+.contact {
+  article {
+    @include flexVariables(row,5vh,3vh, center,center);
+  }
+  iframe {
+    width: 42vh;
+    height: 30vh;
+  }
+}
+}
+
+// ##################
+  // reservations.html
+  // ################
+
+.reservationhtml{
+  header {
+    height: 38vh;
+    article {
+      height: 38vh;
+      div {
+        height: 15vh;
+      }
+      h1 {
+        font-size: 45px;
+      }
+    }
+  }
+}

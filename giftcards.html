@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Document</title>
+</head>
+<body class="giftcardshtml">
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon class="svg--sm" fill="white" points="0,70 30,100 65,58 90,100 100,75 100,100 0,100"/>
+      <polygon class="svg--lg" fill="white" points="70,70 70,100 33,70 45,80 50,85 90,100 72,70 85,80 95,70 100,80 100,100 0,100" />
+    </svg>
+    <article>
+      <details>
+        <summary class="fa-solid fa-bars-staggered"></summary>
+        <ul>
+          <li><a href="about.html" target="self">About Faicco's</a></li>
+          <li><a href="menu.html" target="self">Menu</a></li>
+          <li><a href="giftcards.html" target="self">Giftcards</a></li>
+          <li><a href="contact.html" target="self">Contact us</a></li>
+          <li><a href="reservations.html" target="self">Reservations</a></li>
+        </ul>
+      </details>
+      <section>
+        <figure>
+          <a href="index.html"><img src="/img/f1481_3.png" alt=""></a>
+        </figure>
+        <ul>
+          <li>3837 Angus Drive</li>
+          <li>Phone:778 955 4150</li>
+        </ul>
+      </section>
+      <figure><a href="#"><i class="fa-solid fa-location-dot"></i></a></figure>
+      <aside>
+        <figure><a href="#"><i class="fa-brands fa-twitter"></i></a></figure>
+        <figure><a href="#"><i class="fa-brands fa-facebook"></i></a></figure>
+          <figure><a href="https://www.instagram.com/lula_shop_kids"><i class="fa-brands fa-instagram"></i></a></figure>
+          <figure><a href="mailto:ea80002@gmail.com"><i class="fa-regular fa-envelope"></i></a></figure>
+      </aside>
+      <div>
+        <h1>Giftcards</h1>
+      </div>
+    </article>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" target="self">About Faicco's</a></li>
+          <li><a href="menu.html" target="self">Menu</a></li>
+          <li><a href="gistcards.html" target="self">Giftcards</a></li>
+          <li><a href="contact.html" target="self">Contact us</a></li>
+          <li><a href="reservations.html" target="self">Reservations</a></li>
+    </ul>
+  </nav>
+  <main class="giftcards">
+    <article>
+      <section>
+        <p>Faicco's is pleased to offer Gift Certificates. Guests interested in purchasing Gift Certificates can do so by visiting our restaurant in-person and/or via email/fax by completing our credit card authorization form below.</p>
+        <p>To download the Faicco's credit card authorization form, please click <a href="https://drive.google.com/file/d/1UFFFRW-nhO9NI2zVar0DICnsLOMa-uV7/view?usp=sharing">this link.</a></p>
+      </section>
+      <aside>
+        <span></span>
+        <p>October 3,2018</p>
+      </aside>
+    </article>
+    
+  </main>
+  <footer>
+    <article>
+      <section>
+        <figure><a href="#"><i class="fa-solid fa-location-dot"></i></a></figure>
+        <ul>
+          <li>3837 Angus Drive</li>
+          <li>Phone:778 955 4150</li>
+        </ul>
+      </section>
+      <figure>
+        <a href="index.html"><img src="/img/f1481_3.png" alt=""></a>
+      </figure>
+      <aside>
+          <figure><a href="#"><i class="fa-brands fa-twitter"></i></a></figure>
+          <figure><a href="#"><i class="fa-brands fa-facebook"></i></a></figure>
+          <figure><a href="https://www.instagram.com/lula_shop_kids"><i class="fa-brands fa-instagram"></i></a></figure>
+          <figure><a href="mailto:ea80002@gmail.com"><i class="fa-regular fa-envelope"></i></a></figure>
+      </aside>
+    </article>
+    <nav>
+      <ul>
+        <li><a href="index.html" target="self">About Faicco's</a></li>
+          <li><a href="menu.html" target="self">Menu</a></li>
+          <li><a href="gistcards.html" target="self">Giftcards</a></li>
+          <li><a href="contact.html" target="self">Contact us</a></li>
+          <li><a href="reservations.html" target="self">Reservations</a></li>
+      </ul>
+    </nav>
+      <section>
+        <p>&copy;Faicco's All right reserved</p>
+        <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+      </section>
+  </footer>
+<script>
+  var pics_src = new Array("/img/Giardino-restaurant-Hi-Res-16.jpeg","/img/Giardino-restaurant-Hi-Res-31.jpeg","/img/Giardino-restaurant-Hi-Res-63.jpeg");
+  var num = -1;
+
+  slideshow_timer();
+
+  function slideshow_timer(){
+      if (num == 2){
+          num = 0;
+      } 
+      else {
+          num ++;
+      }
+      document.getElementById("mypic").src=pics_src[num];
+      setTimeout("slideshow_timer()",2000); 
+  }
+  </script>
+</body>
+</html>

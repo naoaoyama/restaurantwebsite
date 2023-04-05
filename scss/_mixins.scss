@@ -1,0 +1,28 @@
+@mixin flexC {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  @mixin flexCgap($direction,$row,$column){
+   display: flex;
+   flex-direction: $direction;
+   row-gap: $row;
+   column-gap: $column;
+  }
+  
+  @mixin flexVariables($direction,$row,$column,$justify,$align){
+   display: flex;
+   flex-direction: $direction;
+   row-gap: $row;
+   column-gap: $column;
+   justify-content: $justify;
+   align-items: $align;
+  }
+  
+  @mixin backImg($img){
+   background-image: url($img);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Document</title>
+</head>
+<body class="reservationhtml">
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon class="svg--sm" fill="white" points="0,70 30,100 65,58 90,100 100,75 100,100 0,100"/>
+      <polygon class="svg--lg" fill="white" points="70,70 70,100 33,70 45,80 50,85 90,100 72,70 85,80 95,70 100,80 100,100 0,100" />
+    </svg>
+    <article>
+      <details>
+        <summary class="fa-solid fa-bars-staggered"></summary>
+        <ul>
+          <li><a href="index.html" target="self">About Faicco's</a></li>
+          <li><a href="menu.html" target="self">Menu</a></li>
+          <li><a href="giftcards.html" target="self">Giftcards</a></li>
+          <li><a href="contact.html" target="self">Contact us</a></li>
+          <li><a href="reservations.html" target="self">Reservations</a></li>
+        </ul>
+      </details>
+      <section>
+        <figure>
+          <a href="index.html"><img src="/img/f1481_3.png" alt=""></a>
+        </figure>
+        <ul>
+          <li>3837 Angus Drive</li>
+          <li>Phone:778 955 4150</li>
+        </ul>
+      </section>
+      <figure><a href="#"><i class="fa-solid fa-location-dot"></i></a></figure>
+      <aside>
+        <figure><a href="#"><i class="fa-brands fa-twitter"></i></a></figure>
+        <figure><a href="#"><i class="fa-brands fa-facebook"></i></a></figure>
+          <figure><a href="https://www.instagram.com/lula_shop_kids"><i class="fa-brands fa-instagram"></i></a></figure>
+          <figure><a href="mailto:ea80002@gmail.com"><i class="fa-regular fa-envelope"></i></a></figure>
+      </aside>
+      <div>
+        <h1>Reservations</h1>
+      </div>
+    </article>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" target="self">About Faicco's</a></li>
+          <li><a href="menu.html" target="self">Menu</a></li>
+          <li><a href="gistcards.html" target="self">Giftcards</a></li>
+          <li><a href="contact.html" target="self">Contact us</a></li>
+          <li><a href="reservations.html" target="self">Reservations</a></li>
+    </ul>
+  </nav>
+  <main class="reservations">
+    <section>
+      <h2>Make a reservation</h2>
+      <p>Select your details and we'll try get the best seats for you</p>
+    </section>
+    <form action="reservation.php" method="post">
+      <div class="elem-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+      </div>
+      <div class="elem-group">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+      </div>
+      <div class="elem-group">
+        <label for="phone">Your Phone</label>
+        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+      </div>
+      <hr>
+      <div class="elem-group inlined">
+        <label for="adult">Adults</label>
+        <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+      </div>
+      <div class="elem-group inlined">
+        <label for="child">Children</label>
+        <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+      </div>
+      <div class="elem-group inlined">
+        <label for="checkin-date">Date</label>
+        <input type="date" id="checkin-date" name="checkin" required>
+      </div>
+      <hr>
+      <div class="elem-group">
+        <label for="message">Anything Else?</label>
+        <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+      </div>
+      <button type="submit">Reserve</button>
+    </form>
+    <article class="garally">
+      <figure>
+        <img src="/img/seared-tuna.jpeg" alt="">
+        <img src="/img/Giardino-Calamari.jpeg" alt="">
+        <img src="/img/Giardino-restaurant-Hi-Res-63.jpeg" alt="">
+        <img src="/img/Giardino-restaurant-Hi-Res-31.jpeg" alt="">
+        <img src="/img/Giardino-restaurant-Hi-Res-16.jpeg" alt="">
+      </figure>
+    </article>
+  </main>
+  <footer>
+    <article>
+      <section>
+        <figure><a href="#"><i class="fa-solid fa-location-dot"></i></a></figure>
+        <ul>
+          <li>3837 Angus Drive</li>
+          <li>Phone:778 955 4150</li>
+        </ul>
+      </section>
+      <figure>
+        <a href="index.html"><img src="/img/f1481_3.png" alt=""></a>
+      </figure>
+      <aside>
+          <figure><a href="#"><i class="fa-brands fa-twitter"></i></a></figure>
+          <figure><a href="#"><i class="fa-brands fa-facebook"></i></a></figure>
+          <figure><a href="https://www.instagram.com/lula_shop_kids"><i class="fa-brands fa-instagram"></i></a></figure>
+          <figure><a href="mailto:ea80002@gmail.com"><i class="fa-regular fa-envelope"></i></a></figure>
+      </aside>
+    </article>
+    <nav>
+      <ul>
+        <li><a href="index.html" target="self">About Faicco's</a></li>
+          <li><a href="menu.html" target="self">Menu</a></li>
+          <li><a href="gistcards.html" target="self">Giftcards</a></li>
+          <li><a href="contact.html" target="self">Contact us</a></li>
+          <li><a href="reservations.html" target="self">Reservations</a></li>
+      </ul>
+    </nav>
+      <section>
+        <p>&copy;Faicco's All right reserved</p>
+        <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+      </section>
+  </footer>
+<script>
+  var currentDateTime = new Date();
+var year = currentDateTime.getFullYear();
+var month = (currentDateTime.getMonth() + 1);
+var date = (currentDateTime.getDate() + 1);
+
+if(date < 10) {
+  date = '0' + date;
+}
+if(month < 10) {
+  month = '0' + month;
+}
+
+var dateTomorrow = year + "-" + month + "-" + date;
+var checkinElem = document.querySelector("#checkin-date");
+var checkoutElem = document.querySelector("#checkout-date");
+
+checkinElem.setAttribute("min", dateTomorrow);
+
+checkinElem.onchange = function () {
+    checkoutElem.setAttribute("min", this.value);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,742 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p,
+address,
+ul,
+figure {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+@media (min-width: 300px) {
+  header {
+    background-image: url("/img/Giardino-restaurant-Hi-Res-16.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  header > article {
+    height: 80vh;
+    background-color: rgba(87, 74, 74, 0.5);
+  }
+  header > article > figure a {
+    display: none;
+  }
+  header section > ul,
+  header aside {
+    display: none;
+  }
+  header img {
+    width: 15vh;
+    height: 15vh;
+  }
+  header details {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+  }
+  header details ul {
+    background-color: rgba(248, 248, 255, 0.5);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  header details li {
+    display: flex;
+    font-size: 20px;
+  }
+  header details a {
+    color: #515155;
+    width: 100%;
+    text-decoration: none;
+  }
+  header details :nth-child(5) {
+    border: 1px solid #515155;
+    padding: 2%;
+  }
+  header details summary {
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 7vh;
+    padding-right: 5vh;
+    color: ghostwhite;
+  }
+  svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+  body > nav {
+    display: none;
+  }
+  .about,
+  .feature {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about h2,
+  .feature h2 {
+    font-size: 20px;
+    color: #95969c;
+  }
+  .about p,
+  .feature p {
+    font-size: 15px;
+    line-height: 2;
+    color: #95969c;
+  }
+  .feature {
+    background-color: #f1eee6;
+  }
+  .feature a {
+    text-decoration: none;
+    padding: 3%;
+    border: 2px solid rgb(50, 50, 70);
+    background-color: #fbfaf8;
+    color: #515155;
+    font-size: 13px;
+  }
+  .garally {
+    background-color: rgb(50, 50, 70);
+  }
+  .garally figure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .garally figure img {
+    width: 42vh;
+    height: 45vh;
+  }
+  .menu {
+    background-image: url("/img/italian-ingredients-olives-850x600.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+  }
+  .menu article {
+    height: 30vh;
+    background-color: rgba(39, 37, 37, 0.5);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu article section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu span {
+    width: 5vh;
+    height: 1vh;
+    color: #f1eee6;
+  }
+  .menu h2 {
+    font-size: 20px;
+    color: #f1eee6;
+    opacity: 0.8;
+  }
+  .menu h3 {
+    font-size: 15px;
+    color: #f1eee6;
+    opacity: 0.8;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #515155;
+    background-color: #f1eee6;
+    opacity: 0.7;
+    padding: 3%;
+    font-size: 13px;
+  }
+  footer {
+    background-color: rgb(50, 50, 70);
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+  }
+  footer > article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8vh;
+  }
+  footer > article > aside {
+    display: flex;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+    align-items: center;
+  }
+  footer section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  footer ul {
+    line-height: 2;
+  }
+  footer li {
+    list-style: none;
+    color: #95969c;
+    font-size: 13px;
+  }
+  footer i {
+    color: #95969c;
+  }
+  footer img {
+    width: 15vh;
+    height: 15vh;
+  }
+  footer nav ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  footer nav a {
+    color: #95969c;
+    text-decoration: none;
+  }
+  footer p {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    color: #95969c;
+    font-size: 13px;
+  }
+  footer > section {
+    display: flex;
+  }
+  .menuhtml header {
+    background-image: url("/img/Giardino-restaurant-Hi-Res-31.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+  }
+  .menuhtml header article {
+    height: 50vh;
+  }
+  .menuhtml header div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vh;
+  }
+  .menuhtml header h1 {
+    font-size: 40px;
+    color: #fbfaf8;
+    font-weight: 200;
+  }
+  .menupage article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13vh;
+  }
+  .menupage section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+  .menupage aside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .menupage ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+  }
+  .menupage img {
+    width: 14vh;
+    height: 10vh;
+  }
+  .menupage h4,
+  .menupage h3,
+  .menupage li {
+    color: #95969c;
+    list-style: none;
+  }
+  .menupage li {
+    font-size: 13px;
+  }
+  .giftcardshtml header {
+    background-image: url("/img/wine06.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+  }
+  .giftcardshtml header article {
+    height: 50vh;
+  }
+  .giftcardshtml header article div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vh;
+  }
+  .giftcardshtml header article h1 {
+    font-size: 40px;
+    color: #fbfaf8;
+    font-weight: 200;
+  }
+  .giftcards article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  .giftcards section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #95969c;
+    padding-bottom: 5vh;
+  }
+  .giftcards p {
+    color: #95969c;
+    line-height: 2;
+    text-align: center;
+  }
+  .giftcards a {
+    color: #95969c;
+  }
+  .contacthtml header {
+    background-image: url("/img/Giardino-restaurant-Hi-Res.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+  }
+  .contacthtml header article {
+    height: 50vh;
+  }
+  .contacthtml header article div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vh;
+  }
+  .contacthtml header article h1 {
+    font-size: 40px;
+    color: #fbfaf8;
+    font-weight: 200;
+  }
+  .contact {
+    padding-bottom: 18vh;
+  }
+  .contact article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10vh;
+  }
+  .contact section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact h2 {
+    font-size: 32px;
+    font-weight: 100;
+  }
+  .contact li {
+    line-height: 2;
+    list-style: none;
+    color: #95969c;
+    font-size: 17px;
+  }
+  .contact iframe {
+    width: 90%;
+    height: 35vh;
+  }
+  .reservationhtml header {
+    background-image: url("/img/Giardino-restaurant-Hi-Res.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+  }
+  .reservationhtml header article {
+    height: 50vh;
+  }
+  .reservationhtml header article div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vh;
+  }
+  .reservationhtml header article h1 {
+    font-size: 40px;
+    color: #fbfaf8;
+    font-weight: 200;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+  }
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 1%;
+  }
+  label {
+    display: block;
+    font-family: "Nanum Gothic";
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #95969c;
+  }
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #95969c;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 100%;
+    padding: 2%;
+    color: #95969c;
+  }
+  div.elem-group.inlined input {
+    width: 65%;
+    display: inline-block;
+    color: #95969c;
+  }
+  textarea {
+    height: 250px;
+    width: 370px;
+    color: #95969c;
+  }
+  hr {
+    border: 1px dotted #ccc;
+  }
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: "Nanum Gothic";
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2%;
+  }
+  button:hover {
+    border: 2px solid black;
+  }
+  .reservations {
+    padding-top: 10vh;
+  }
+  .reservations section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    -moz-column-gap: 0vh;
+         column-gap: 0vh;
+    justify-content: center;
+    align-items: center;
+    color: #95969c;
+    padding-bottom: 5vh;
+  }
+}
+@media (min-width: 600px) {
+  header {
+    height: 38vh;
+  }
+  header article {
+    height: 38vh;
+  }
+  header figure {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 20vh;
+    height: 20vh;
+  }
+  details li {
+    font-size: 25px;
+  }
+  details :nth-child(5) {
+    padding: 1.5%;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 16px;
+  }
+  .feature h2 {
+    font-size: 25px;
+  }
+  .feature p {
+    font-size: 16px;
+  }
+  .feature a {
+    font-size: 16px;
+    padding: 2%;
+  }
+  .garally {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .garally figure {
+    flex-direction: row;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  .garally figure img {
+    width: 10vh;
+    height: 10vh;
+  }
+  .menu h2 {
+    font-size: 30px;
+  }
+  .menu h3 {
+    font-size: 20px;
+    padding-bottom: 2vh;
+  }
+  .menu a {
+    padding: 4%;
+    font-size: 15px;
+  }
+  footer section {
+    flex-direction: row;
+    -moz-column-gap: 2vh;
+         column-gap: 2vh;
+  }
+  footer section li {
+    font-size: 16px;
+  }
+  footer section figure a {
+    font-size: 20px;
+  }
+  footer a {
+    font-size: 20px;
+  }
+  footer nav ul {
+    flex-direction: row;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  footer nav li {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  footer > section {
+    align-items: center;
+    justify-content: space-around;
+    -moz-column-gap: 5vh;
+         column-gap: 5vh;
+  }
+  .menuhtml header {
+    height: 38vh;
+  }
+  .menuhtml header article {
+    height: 38vh;
+  }
+  .menuhtml header div {
+    height: 15vh;
+  }
+  .menuhtml header h1 {
+    font-size: 45px;
+  }
+  .menupage img {
+    width: 23vh;
+    height: 17vh;
+  }
+  .menupage h3 {
+    font-size: 22px;
+  }
+  .menupage h4 {
+    font-size: 20px;
+  }
+  .menupage li {
+    font-size: 15px;
+  }
+  .menufooter {
+    padding-top: 3vh;
+  }
+  .giftcardshtml header {
+    height: 38vh;
+  }
+  .giftcardshtml header article {
+    height: 38vh;
+  }
+  .giftcardshtml header article div {
+    height: 15vh;
+  }
+  .giftcardshtml header article h1 {
+    font-size: 45px;
+  }
+  .giftcardsfooter article {
+    padding-top: 0;
+  }
+  .giftcards {
+    padding-top: 0vh;
+  }
+  .giftcards article {
+    padding-top: 0vh;
+  }
+  .contacthtml header {
+    height: 38vh;
+  }
+  .contacthtml header article {
+    height: 38vh;
+  }
+  .contacthtml header article div {
+    height: 15vh;
+  }
+  .contacthtml header article h1 {
+    font-size: 45px;
+  }
+  .contact article {
+    display: flex;
+    flex-direction: row;
+    row-gap: 5vh;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact iframe {
+    width: 42vh;
+    height: 30vh;
+  }
+}
+.reservationhtml header {
+  height: 38vh;
+}
+.reservationhtml header article {
+  height: 38vh;
+}
+.reservationhtml header article div {
+  height: 15vh;
+}
+.reservationhtml header article h1 {
+  font-size: 45px;
+}
+
+@media (min-width: 1000px) {
+  details {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
