@@ -736,7 +736,13 @@ ul {
 }
 
 @media (min-width: 1000px) {
-  details {
-    display: flex;
+  header {
+    height: 55vh;
+  }
+  header article {
+    height: 55vh;
+  }
+  header details {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

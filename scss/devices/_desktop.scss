@@ -1,11 +1,19 @@
-@media (min-width: $media-widthDes){
+@media (min-width: 1000px){
   //   // ##################
-//   // index.html
-//   // ################
+  //   // index.html
+  //   // ################
 
-details {
-  display: flex;
-}
+  header {
+    height: 55vh;
+    article {
+    height: 55vh;
+    }
+    details {
+      display: none;
+    }
+    
+  }
+
 
 
 
