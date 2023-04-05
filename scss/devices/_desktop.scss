@@ -7,16 +7,151 @@
     height: 55vh;
     article {
     height: 55vh;
+    display: flex;
+    flex-direction: column;
+    section {
+      display: flex;
+      flex-direction: column;
+      // align-items: center;
+      justify-content: flex-start;
+    }
     }
     details {
       display: none;
     }
-    
+    // section > ul,
+    // aside{
+    //   display: flex;
+    //   justify-content: flex-end;
+    //   padding-top: 0;
+    // }
+
+    figure {
+      img {
+        width: 25vh;
+        height: 25vh;
+      }
+    }
   }
 
+  body > nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    ul{
+      display: flex;
+      column-gap: 15vh;
+      border-bottom: 1px solid $originalGray;
+      padding-bottom: 3vh;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          color: $originalGray;
+          transition: .4s;
+        }
+      }
+    }
+    a:hover {
+      border-top: 2px solid orange;
+    }
+  }
 
+  .about {
+    p {
+      width: 85%;
+    }
+  }
+  .feature {
+    row-gap: 3vh;
+    a {
+      padding: 1.5%;
+    }
+  }
 
+  .menu {
+    height: 45vh;
+    article {
+    height: 45vh;
+    }
+  }
 
+  // ##################
+  // menu.html
+  // ################
+
+  .menuhtml {
+    header {
+      height: 55vh;
+      article {
+      height: 55vh;
+      }
+      div {
+        height: 20vh;
+      }
+    }
+  }
+
+  .menupage {    
+    img {
+      width: 45vh;
+      height: 25vh;
+    }
+  }
+
+  // ##################
+  // giftcards.html
+  // ################
+
+  .giftcardshtml {
+    header {
+      height: 55vh;
+      article {
+      height: 55vh;
+      }
+      div {
+        height: 20vh;
+      }
+    }
+  }
+
+  // ##################
+  // contact.html
+  // ################
+
+  .contacthtml {
+    header {
+      height: 55vh;
+      article {
+      height: 55vh;
+      }
+      div {
+        height: 20vh;
+      }
+    }
+  }
+  .contact {
+    article {
+      column-gap: 5vh;
+    }
+  }
+
+  // ##################
+  // reservations.html
+  // ################
+
+  .reservationhtml {
+    header {
+      height: 55vh;
+      article {
+      height: 55vh;
+      }
+      div {
+        height: 20vh;
+      }
+    }
+  }
 
 
 

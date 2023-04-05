@@ -741,8 +741,102 @@ ul {
   }
   header article {
     height: 55vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header article section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   header details {
     display: none;
+  }
+  header figure img {
+    width: 25vh;
+    height: 25vh;
+  }
+  body > nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+  }
+  body > nav ul {
+    display: flex;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+    border-bottom: 1px solid #95969c;
+    padding-bottom: 3vh;
+  }
+  body > nav ul li {
+    list-style: none;
+  }
+  body > nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #95969c;
+    transition: 0.4s;
+  }
+  body > nav a:hover {
+    border-top: 2px solid orange;
+  }
+  .about p {
+    width: 85%;
+  }
+  .feature {
+    row-gap: 3vh;
+  }
+  .feature a {
+    padding: 1.5%;
+  }
+  .menu {
+    height: 45vh;
+  }
+  .menu article {
+    height: 45vh;
+  }
+  .menuhtml header {
+    height: 55vh;
+  }
+  .menuhtml header article {
+    height: 55vh;
+  }
+  .menuhtml header div {
+    height: 20vh;
+  }
+  .menupage img {
+    width: 45vh;
+    height: 25vh;
+  }
+  .giftcardshtml header {
+    height: 55vh;
+  }
+  .giftcardshtml header article {
+    height: 55vh;
+  }
+  .giftcardshtml header div {
+    height: 20vh;
+  }
+  .contacthtml header {
+    height: 55vh;
+  }
+  .contacthtml header article {
+    height: 55vh;
+  }
+  .contacthtml header div {
+    height: 20vh;
+  }
+  .contact article {
+    -moz-column-gap: 5vh;
+         column-gap: 5vh;
+  }
+  .reservationhtml header {
+    height: 55vh;
+  }
+  .reservationhtml header article {
+    height: 55vh;
+  }
+  .reservationhtml header div {
+    height: 20vh;
   }
 }/*# sourceMappingURL=style.css.map */
