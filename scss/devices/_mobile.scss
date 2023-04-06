@@ -5,7 +5,7 @@
   // ################
 
   header {
-    @include backImg("../img/Giardino-restaurant-Hi-Res-16.jpeg");
+    @include backImg("../img/carpaccho.jpeg");
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
@@ -217,7 +217,7 @@
 
   .menuhtml {
   header {
-    @include backImg("../img/Giardino-restaurant-Hi-Res-31.jpeg");
+    @include backImg("../img/fish.jpeg");
     background-attachment: fixed;
     height: 50vh;
     article {
@@ -380,7 +380,7 @@
 
   .reservationhtml {
       header {
-        @include backImg("../img/Giardino-restaurant-Hi-Res.jpeg");
+        @include backImg("../img/restaurantinside.jpeg");
         background-attachment: fixed;
         height: 50vh;
         article {

@@ -25,7 +25,7 @@ ul {
 
 @media (min-width: 300px) {
   header {
-    background-image: url("../img/Giardino-restaurant-Hi-Res-16.jpeg");
+    background-image: url("../img/carpaccho.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +274,7 @@ ul {
     display: flex;
   }
   .menuhtml header {
-    background-image: url("../img/Giardino-restaurant-Hi-Res-31.jpeg");
+    background-image: url("../img/fish.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,7 +461,7 @@ ul {
     height: 35vh;
   }
   .reservationhtml header {
-    background-image: url("../img/Giardino-restaurant-Hi-Res.jpeg");
+    background-image: url("../img/restaurantinside.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
