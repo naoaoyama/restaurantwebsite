@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif");
 * {
   margin: 0;
@@ -25,10 +26,6 @@ ul {
 
 @media (min-width: 300px) {
   header {
-    background-image: url("../img/carpaccho.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
@@ -272,6 +269,60 @@ ul {
   }
   footer > section {
     display: flex;
+  }
+  .slide {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  /* スライドショー背景の設定 */
+  .slide .bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+    /* 4枚を5s毎で計20s */
+    animation: pseudoAnimation 20s infinite; /* infiniteで繰り返す */
+  }
+  /* 時間差で背景画像のアニメーションを開始 */
+  .slide .srcImage1 {
+    background-image: url("/img/carpaccho.jpeg");
+  }
+  .slide .srcImage2 {
+    background-image: url("/img/resotto.jpg");
+    animation-delay: 5s;
+  }
+  .slide .srcImage3 {
+    background-image: url("/img/Calamari.jpeg");
+    animation-delay: 10s;
+  }
+  .slide .srcImage4 {
+    background-image: url("/img/fish.jpeg");
+    animation-delay: 15s;
+  }
+  /* 20sのうち最初の約5sだけ表示する */
+  @keyframes pseudoAnimation {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    } /* 表示タイミングをずらしてフェードイン風に */
+    25% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
   }
   .menuhtml header {
     background-image: url("../img/fish.jpeg");
