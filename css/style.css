@@ -37,7 +37,7 @@ ul {
   }
   header > article {
     height: 80vh;
-    background-color: rgba(87, 74, 74, 0.5);
+    background-color: rgba(98, 87, 87, 0.5);
   }
   header > article > figure a {
     display: none;
@@ -357,6 +357,7 @@ ul {
     height: 50vh;
   }
   .giftcardshtml header article {
+    background-color: transparent;
     height: 50vh;
   }
   .giftcardshtml header article div {
@@ -401,7 +402,7 @@ ul {
     color: #95969c;
   }
   .contacthtml header {
-    background-image: url("/img/Giardino-restaurant-Hi-Res.jpeg");
+    background-image: url("/img/wine01.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,6 +469,7 @@ ul {
     height: 50vh;
   }
   .reservationhtml header article {
+    background-color: transparent;
     height: 50vh;
   }
   .reservationhtml header article div {
@@ -555,7 +557,7 @@ ul {
     padding-bottom: 5vh;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   header {
     height: 38vh;
   }
@@ -814,7 +816,7 @@ ul {
   .giftcardshtml header article {
     height: 55vh;
   }
-  .giftcardshtml header div {
+  .giftcardshtml header article div {
     height: 20vh;
   }
   .contacthtml header {
@@ -823,20 +825,44 @@ ul {
   .contacthtml header article {
     height: 55vh;
   }
-  .contacthtml header div {
+  .contacthtml header article div {
     height: 20vh;
   }
   .contact article {
     -moz-column-gap: 5vh;
          column-gap: 5vh;
   }
+  .contact iframe {
+    width: 80vh;
+    height: 55vh;
+  }
   .reservationhtml header {
     height: 55vh;
+    background-position: bottom;
   }
   .reservationhtml header article {
     height: 55vh;
   }
-  .reservationhtml header div {
+  .reservationhtml header article div {
     height: 20vh;
+  }
+  .reservationhtml input, .reservationhtml select, .reservationhtml textarea {
+    border: 2px solid #95969c;
+  }
+  .reservationhtml div.elem-group.inlined input {
+    width: 33%;
+  }
+  .reservationhtml textarea {
+    height: 250px;
+    width: 500px;
+    color: #95969c;
+  }
+  .reservationhtml button {
+    padding: 1%;
+  }
+  .reservationhtml button:hover {
+    color: orange;
+    background-color: #fbfaf8;
+    border: 1px solid orange;
   }
 }/*# sourceMappingURL=style.css.map */

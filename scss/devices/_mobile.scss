@@ -1,4 +1,4 @@
-@media (min-width: 300px){
+@media (min-width: $media-WidthMob){
   
   // ##################
   // index.html
@@ -14,7 +14,7 @@
     height: 80vh;
     >article{
       height: 80vh; 
-      background-color: rgba(87, 74, 74, 0.5);
+      background-color: rgba(98, 87, 87, 0.5);
       >figure {
         a {
           display: none;
@@ -282,6 +282,7 @@
     background-attachment: fixed;
     height: 50vh;
     article {
+      background-color: transparent;
     height: 50vh;
     div {
       display: flex;
@@ -326,7 +327,7 @@
 
   .contacthtml {
   header {
-    @include backImg("/img/Giardino-restaurant-Hi-Res.jpeg");
+    @include backImg("/img/wine01.jpeg");
     background-attachment: fixed;
     height: 50vh;
     article {
@@ -383,6 +384,8 @@
         background-attachment: fixed;
         height: 50vh;
         article {
+        background-color: transparent;
+
           height: 50vh;
           div {
             display: flex;
@@ -398,6 +401,7 @@
         }
       }
     }
+    
     form {
       @include flexVariables(column,2vh,0vh,center,center);
       padding-bottom: 10vh;
@@ -469,5 +473,6 @@
     color: $originalGray;
     padding-bottom: 5vh;
   }
+  
   }
 }

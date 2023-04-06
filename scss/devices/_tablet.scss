@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: $media-widthTab) {
 //   // ##################
 //   // index.html
 //   // ################
@@ -233,4 +233,5 @@
       }
     }
   }
+  
 }

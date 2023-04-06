@@ -1,4 +1,4 @@
-@media (min-width: 1000px){
+@media (min-width: $media-widthDes){
   //   // ##################
   //   // index.html
   //   // ################
@@ -109,9 +109,9 @@
       height: 55vh;
       article {
       height: 55vh;
-      }
       div {
         height: 20vh;
+      }
       }
     }
   }
@@ -125,15 +125,19 @@
       height: 55vh;
       article {
       height: 55vh;
-      }
       div {
         height: 20vh;
+      }
       }
     }
   }
   .contact {
     article {
       column-gap: 5vh;
+    }
+    iframe {
+      width: 80vh;
+      height: 55vh;
     }
   }
 
@@ -144,14 +148,44 @@
   .reservationhtml {
     header {
       height: 55vh;
+      background-position: bottom;
       article {
       height: 55vh;
-      }
       div {
         height: 20vh;
       }
+      }
+    }
+    
+    input, select, textarea {
+      border: 2px solid $originalGray;
+    }
+    
+    div.elem-group.inlined input {
+      width: 33%;
+    }
+    
+    textarea {
+      height: 250px;
+      width: 500px;
+      color: $originalGray;
+  
+    }
+    
+    
+    
+    button {
+      padding: 1%;
+    }
+    
+    button:hover {
+      color: orange;
+      background-color: $originalWhite;
+      border: 1px solid orange;
     }
   }
+
+  
 
 
 
