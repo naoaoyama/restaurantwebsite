@@ -25,7 +25,7 @@ ul {
 
 @media (min-width: 300px) {
   header {
-    background-image: url("/img/Giardino-restaurant-Hi-Res-16.jpeg");
+    background-image: url("../img/Giardino-restaurant-Hi-Res-16.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,7 +151,7 @@ ul {
     height: 45vh;
   }
   .menu {
-    background-image: url("/img/italian-ingredients-olives-850x600.webp");
+    background-image: url("../img/italian-ingredients-olives-850x600.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +274,7 @@ ul {
     display: flex;
   }
   .menuhtml header {
-    background-image: url("/img/Giardino-restaurant-Hi-Res-31.jpeg");
+    background-image: url("../img/Giardino-restaurant-Hi-Res-31.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,7 +349,7 @@ ul {
     font-size: 13px;
   }
   .giftcardshtml header {
-    background-image: url("/img/wine06.jpeg");
+    background-image: url("../img/wine06.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -402,7 +402,7 @@ ul {
     color: #95969c;
   }
   .contacthtml header {
-    background-image: url("/img/wine01.jpeg");
+    background-image: url("../img/wine01.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,7 +461,7 @@ ul {
     height: 35vh;
   }
   .reservationhtml header {
-    background-image: url("/img/Giardino-restaurant-Hi-Res.jpeg");
+    background-image: url("../img/Giardino-restaurant-Hi-Res.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

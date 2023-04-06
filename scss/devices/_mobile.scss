@@ -5,7 +5,7 @@
   // ################
 
   header {
-    @include backImg("/img/Giardino-restaurant-Hi-Res-16.jpeg");
+    @include backImg("../img/Giardino-restaurant-Hi-Res-16.jpeg");
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
@@ -121,7 +121,7 @@
   }
 
   .menu {
-    @include backImg ("/img/italian-ingredients-olives-850x600.webp");
+    @include backImg ("../img/italian-ingredients-olives-850x600.webp");
     height: 30vh;
     article {
       height: 30vh; 
@@ -217,7 +217,7 @@
 
   .menuhtml {
   header {
-    @include backImg("/img/Giardino-restaurant-Hi-Res-31.jpeg");
+    @include backImg("../img/Giardino-restaurant-Hi-Res-31.jpeg");
     background-attachment: fixed;
     height: 50vh;
     article {
@@ -278,7 +278,7 @@
 
   .giftcardshtml {
   header {
-    @include backImg("/img/wine06.jpeg");
+    @include backImg("../img/wine06.jpeg");
     background-attachment: fixed;
     height: 50vh;
     article {
@@ -327,7 +327,7 @@
 
   .contacthtml {
   header {
-    @include backImg("/img/wine01.jpeg");
+    @include backImg("../img/wine01.jpeg");
     background-attachment: fixed;
     height: 50vh;
     article {
@@ -380,7 +380,7 @@
 
   .reservationhtml {
       header {
-        @include backImg("/img/Giardino-restaurant-Hi-Res.jpeg");
+        @include backImg("../img/Giardino-restaurant-Hi-Res.jpeg");
         background-attachment: fixed;
         height: 50vh;
         article {
