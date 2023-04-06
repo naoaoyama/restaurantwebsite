@@ -235,18 +235,18 @@
   
   /* 時間差で背景画像のアニメーションを開始 */
   .slide .srcImage1 {
-    background-image : url("/img/carpaccho.jpeg");
+    background-image : url("../img/carpaccho.jpeg");
   }
   .slide .srcImage2 {
-    background-image : url("/img/resotto.jpg");
+    background-image : url("../img/resotto.jpg");
     animation-delay  : 5s;
   }
   .slide .srcImage3 {
-    background-image : url("/img/Calamari.jpeg");
+    background-image : url("../img/Calamari.jpeg");
     animation-delay  : 10s;
   }
   .slide .srcImage4 {
-    background-image : url("/img/fish.jpeg");
+    background-image : url("../img/fish.jpeg");
     animation-delay  : 15s;
   }
   
