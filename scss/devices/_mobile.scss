@@ -328,7 +328,7 @@
 
   .giftcardhtml {
     header {
-      @include backImg("/img/wine05.jpeg");
+      @include backImg("../img/wine05.jpeg");
       background-attachment: fixed;
       height: 50vh;
       article {
@@ -375,7 +375,7 @@
 
   .contactshtml {
     header {
-      @include backImg("/img/wine01.jpeg");
+      @include backImg("../img/wine01.jpeg");
       background-attachment: fixed;
       height: 50vh;
       article {
@@ -430,7 +430,7 @@
   
   .reservationshtml {
     header {
-      @include backImg("/img/pexels-quark-studio-3201921.jpg");
+      @include backImg("../img/pexels-quark-studio-3201921.jpg");
       background-attachment: fixed;
       height: 50vh;
       article {
