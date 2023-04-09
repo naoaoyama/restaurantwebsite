@@ -4,9 +4,9 @@
   //   // ################
 
   header {
-    height: 55vh;
+    height: 60vh;
     article {
-    height: 55vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     section {
@@ -34,12 +34,13 @@
     }
   }
 
-  body > nav {
+  body > .navigation {
     display: flex;
     justify-content: center;
     padding-top: 5vh;
     ul{
       display: flex;
+      flex-direction: row;
       column-gap: 15vh;
       border-bottom: 1px solid $originalGray;
       padding-bottom: 3vh;
@@ -77,18 +78,46 @@
     }
   }
 
+  .bar {
+    display: none;
+  }
+
   // ##################
   // menu.html
   // ################
 
-  .menuhtml {
+  .menushtml {
     header {
       height: 55vh;
       article {
       height: 55vh;
       }
-      div {
-        height: 20vh;
+      h2 {
+        font-size: 50px;
+      }
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      padding-top: 5vh;
+      ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 15vh;
+        border-bottom: 1px solid $originalGray;
+        padding-bottom: 3vh;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            font-size: 18px;
+            color: $originalGray;
+            transition: .4s;
+          }
+        }
+      }
+      a:hover {
+        border-top: 2px solid orange;
       }
     }
   }
@@ -104,14 +133,38 @@
   // giftcards.html
   // ################
 
-  .giftcardshtml {
+  .giftcardhtml {
     header {
       height: 55vh;
       article {
       height: 55vh;
-      div {
-        height: 20vh;
       }
+      h2 {
+        font-size: 50px;
+      }
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      padding-top: 5vh;
+      ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 15vh;
+        border-bottom: 1px solid $originalGray;
+        padding-bottom: 3vh;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            font-size: 18px;
+            color: $originalGray;
+            transition: .4s;
+          }
+        }
+      }
+      a:hover {
+        border-top: 2px solid orange;
       }
     }
   }
@@ -120,14 +173,38 @@
   // contact.html
   // ################
 
-  .contacthtml {
+  .contactshtml {
     header {
       height: 55vh;
       article {
       height: 55vh;
-      div {
-        height: 20vh;
       }
+      h2 {
+        font-size: 50px;
+      }
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      padding-top: 5vh;
+      ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 15vh;
+        border-bottom: 1px solid $originalGray;
+        padding-bottom: 3vh;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            font-size: 18px;
+            color: $originalGray;
+            transition: .4s;
+          }
+        }
+      }
+      a:hover {
+        border-top: 2px solid orange;
       }
     }
   }
@@ -145,15 +222,39 @@
   // reservations.html
   // ################
 
-  .reservationhtml {
+  .reservationshtml {
     header {
       height: 55vh;
       background-position: bottom;
       article {
       height: 55vh;
-      div {
-        height: 20vh;
       }
+      h2 {
+        font-size: 50px;
+      }
+      .navigation {
+        display: flex;
+        justify-content: center;
+        padding-top: 5vh;
+        ul{
+          display: flex;
+          flex-direction: row;
+          column-gap: 15vh;
+          border-bottom: 1px solid $originalGray;
+          padding-bottom: 3vh;
+          li {
+            list-style: none;
+            a {
+              text-decoration: none;
+              font-size: 18px;
+              color: $originalGray;
+              transition: .4s;
+            }
+          }
+        }
+        a:hover {
+          border-top: 2px solid orange;
+        }
       }
     }
     
@@ -183,9 +284,13 @@
       background-color: $originalWhite;
       border: 1px solid orange;
     }
+
+    
   }
 
-  
+  .slide {
+    height: 500px;
+  }
 
 
 

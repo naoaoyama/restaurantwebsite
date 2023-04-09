@@ -128,6 +128,8 @@
   }
   }
 
+  
+
   .menupage {
   img {
     width: 23vh;
@@ -179,10 +181,6 @@
 
   .giftcards {
   padding-top: 0vh;
-  article {
-  padding-top: 0vh;
-
-  }
   }
 
   // // ##################
@@ -206,6 +204,9 @@
   }
 
   .contact {
+    ul {
+      row-gap: 1vh
+    }
   article {
     @include flexVariables(row,5vh,3vh, center,center);
   }
@@ -234,4 +235,16 @@
     }
   }
   
+}
+
+// ############
+// humbergar menu
+// ###############
+
+ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
 }

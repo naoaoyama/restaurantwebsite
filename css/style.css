@@ -34,7 +34,7 @@ ul {
   }
   header > article {
     height: 80vh;
-    background-color: rgba(98, 87, 87, 0.5);
+    background-color: rgba(52, 47, 47, 0.5);
   }
   header > article > figure a {
     display: none;
@@ -89,7 +89,7 @@ ul {
     width: 100%;
     height: 100px;
   }
-  body > nav {
+  body > div {
     display: none;
   }
   .about,
@@ -295,15 +295,15 @@ ul {
     background-image: url("../img/carpaccho.jpeg");
   }
   .slide .srcImage2 {
-    background-image: url("../img/resotto.jpg");
+    background-image: url("../img/fish.jpeg");
     animation-delay: 5s;
   }
   .slide .srcImage3 {
-    background-image: url("../img/Calamari.jpeg");
+    background-image: url("/img/tapas01.jpeg");
     animation-delay: 10s;
   }
   .slide .srcImage4 {
-    background-image: url("../img/fish.jpeg");
+    background-image: url("/img/pablova.jpeg");
     animation-delay: 15s;
   }
   /* 20sのうち最初の約5sだけ表示する */
@@ -324,7 +324,7 @@ ul {
       opacity: 0;
     }
   }
-  .menuhtml header {
+  .menushtml header {
     background-image: url("../img/fish.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -332,16 +332,17 @@ ul {
     background-attachment: fixed;
     height: 50vh;
   }
-  .menuhtml header article {
+  .menushtml header article {
     height: 50vh;
+    background-color: rgba(101, 92, 92, 0.5);
   }
-  .menuhtml header div {
+  .menushtml header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 25vh;
+    height: 20vh;
   }
-  .menuhtml header h1 {
+  .menushtml header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
@@ -399,49 +400,34 @@ ul {
   .menupage li {
     font-size: 13px;
   }
-  .giftcardshtml header {
-    background-image: url("../img/wine06.jpeg");
+  .giftcardhtml header {
+    background-image: url("/img/wine05.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 50vh;
   }
-  .giftcardshtml header article {
-    background-color: transparent;
+  .giftcardhtml header article {
     height: 50vh;
+    background-color: rgba(101, 92, 92, 0.5);
   }
-  .giftcardshtml header article div {
+  .giftcardhtml header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 25vh;
+    height: 20vh;
   }
-  .giftcardshtml header article h1 {
+  .giftcardhtml header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
   }
-  .giftcards article {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5vh;
-    -moz-column-gap: 0vh;
-         column-gap: 0vh;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
+  .giftcards > article {
+    padding-bottom: 5vh;
   }
-  .giftcards section {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5vh;
-    -moz-column-gap: 0vh;
-         column-gap: 0vh;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    border-bottom: 1px solid #95969c;
+  .giftcards > article > section {
+    padding-top: 10vh;
     padding-bottom: 5vh;
   }
   .giftcards p {
@@ -452,41 +438,40 @@ ul {
   .giftcards a {
     color: #95969c;
   }
-  .contacthtml header {
-    background-image: url("../img/wine01.jpeg");
+  .contactshtml header {
+    background-image: url("/img/wine01.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 50vh;
   }
-  .contacthtml header article {
+  .contactshtml header article {
     height: 50vh;
+    background-color: rgba(101, 92, 92, 0.5);
   }
-  .contacthtml header article div {
+  .contactshtml header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 25vh;
+    height: 20vh;
   }
-  .contacthtml header article h1 {
+  .contactshtml header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
   }
-  .contact {
-    padding-bottom: 18vh;
-  }
-  .contact article {
+  .contact > article {
     display: flex;
     flex-direction: column;
-    row-gap: 10vh;
+    row-gap: 8vh;
     -moz-column-gap: 0vh;
          column-gap: 0vh;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 10vh;
+    padding-bottom: 10vh;
   }
   .contact section {
     display: flex;
@@ -511,25 +496,25 @@ ul {
     width: 90%;
     height: 35vh;
   }
-  .reservationhtml header {
-    background-image: url("../img/restaurantinside.jpeg");
+  .reservationshtml header {
+    background-image: url("/img/pexels-quark-studio-3201921.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 50vh;
   }
-  .reservationhtml header article {
-    background-color: transparent;
+  .reservationshtml header article {
     height: 50vh;
+    background-color: rgba(101, 92, 92, 0.5);
   }
-  .reservationhtml header article div {
+  .reservationshtml header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 25vh;
+    height: 20vh;
   }
-  .reservationhtml header article h1 {
+  .reservationshtml header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
@@ -606,6 +591,87 @@ ul {
     align-items: center;
     color: #95969c;
     padding-bottom: 5vh;
+  }
+  body {
+    margin: 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+  }
+  /* li{list-style: none;} */
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .menu-wrapper {
+    position: relative;
+  }
+  .btn {
+    width: 100%;
+    display: block;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    right: 0;
+    z-index: 999; /*追記：いつも一番上*/
+  }
+  .bar {
+    width: 20px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #515155;
+  }
+  .bar-top {
+    top: 10px;
+  }
+  .bar-middle {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bar-bottom {
+    bottom: 10px;
+  }
+  .btn.close .bar-top {
+    transform: translate(-50%, 10px) rotate(45deg);
+    transition: transform 0.3s;
+  }
+  .btn.close .bar-middle {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .btn.close .bar-bottom {
+    transform: translate(-50%, -8px) rotate(-45deg);
+    transition: transform 0.3s;
+  }
+  .menu-lists {
+    display: none;
+    background-color: rgba(248, 248, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .main {
+    padding-top: 80px; /*追記*/
+    height: 1000px; /*メインコンテンツを入れた後で消す*/
+    background: rgb(214, 189, 238); /*メインコンテンツを入れた後で消す*/
+    text-align: center; /*メインコンテンツを入れた後で消す*/
   }
 }
 @media (min-width: 700px) {
@@ -746,9 +812,6 @@ ul {
   .giftcards {
     padding-top: 0vh;
   }
-  .giftcards article {
-    padding-top: 0vh;
-  }
   .contacthtml header {
     height: 38vh;
   }
@@ -760,6 +823,9 @@ ul {
   }
   .contacthtml header article h1 {
     font-size: 45px;
+  }
+  .contact ul {
+    row-gap: 1vh;
   }
   .contact article {
     display: flex;
@@ -788,12 +854,20 @@ ul {
   font-size: 45px;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+
 @media (min-width: 1000px) {
   header {
-    height: 55vh;
+    height: 60vh;
   }
   header article {
-    height: 55vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
   }
@@ -809,28 +883,29 @@ ul {
     width: 25vh;
     height: 25vh;
   }
-  body > nav {
+  body > .navigation {
     display: flex;
     justify-content: center;
     padding-top: 5vh;
   }
-  body > nav ul {
+  body > .navigation ul {
     display: flex;
+    flex-direction: row;
     -moz-column-gap: 15vh;
          column-gap: 15vh;
     border-bottom: 1px solid #95969c;
     padding-bottom: 3vh;
   }
-  body > nav ul li {
+  body > .navigation ul li {
     list-style: none;
   }
-  body > nav ul li a {
+  body > .navigation ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #95969c;
     transition: 0.4s;
   }
-  body > nav a:hover {
+  body > .navigation a:hover {
     border-top: 2px solid orange;
   }
   .about p {
@@ -848,36 +923,114 @@ ul {
   .menu article {
     height: 45vh;
   }
-  .menuhtml header {
+  .bar {
+    display: none;
+  }
+  .menushtml header {
     height: 55vh;
   }
-  .menuhtml header article {
+  .menushtml header article {
     height: 55vh;
   }
-  .menuhtml header div {
-    height: 20vh;
+  .menushtml header h2 {
+    font-size: 50px;
+  }
+  .menushtml .navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+  }
+  .menushtml .navigation ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+    border-bottom: 1px solid #95969c;
+    padding-bottom: 3vh;
+  }
+  .menushtml .navigation ul li {
+    list-style: none;
+  }
+  .menushtml .navigation ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #95969c;
+    transition: 0.4s;
+  }
+  .menushtml .navigation a:hover {
+    border-top: 2px solid orange;
   }
   .menupage img {
     width: 45vh;
     height: 25vh;
   }
-  .giftcardshtml header {
+  .giftcardhtml header {
     height: 55vh;
   }
-  .giftcardshtml header article {
+  .giftcardhtml header article {
     height: 55vh;
   }
-  .giftcardshtml header article div {
-    height: 20vh;
+  .giftcardhtml header h2 {
+    font-size: 50px;
   }
-  .contacthtml header {
+  .giftcardhtml .navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+  }
+  .giftcardhtml .navigation ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+    border-bottom: 1px solid #95969c;
+    padding-bottom: 3vh;
+  }
+  .giftcardhtml .navigation ul li {
+    list-style: none;
+  }
+  .giftcardhtml .navigation ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #95969c;
+    transition: 0.4s;
+  }
+  .giftcardhtml .navigation a:hover {
+    border-top: 2px solid orange;
+  }
+  .contactshtml header {
     height: 55vh;
   }
-  .contacthtml header article {
+  .contactshtml header article {
     height: 55vh;
   }
-  .contacthtml header article div {
-    height: 20vh;
+  .contactshtml header h2 {
+    font-size: 50px;
+  }
+  .contactshtml .navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+  }
+  .contactshtml .navigation ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+    border-bottom: 1px solid #95969c;
+    padding-bottom: 3vh;
+  }
+  .contactshtml .navigation ul li {
+    list-style: none;
+  }
+  .contactshtml .navigation ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #95969c;
+    transition: 0.4s;
+  }
+  .contactshtml .navigation a:hover {
+    border-top: 2px solid orange;
   }
   .contact article {
     -moz-column-gap: 5vh;
@@ -887,33 +1040,61 @@ ul {
     width: 80vh;
     height: 55vh;
   }
-  .reservationhtml header {
+  .reservationshtml header {
     height: 55vh;
     background-position: bottom;
   }
-  .reservationhtml header article {
+  .reservationshtml header article {
     height: 55vh;
   }
-  .reservationhtml header article div {
-    height: 20vh;
+  .reservationshtml header h2 {
+    font-size: 50px;
   }
-  .reservationhtml input, .reservationhtml select, .reservationhtml textarea {
+  .reservationshtml header .navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+  }
+  .reservationshtml header .navigation ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+    border-bottom: 1px solid #95969c;
+    padding-bottom: 3vh;
+  }
+  .reservationshtml header .navigation ul li {
+    list-style: none;
+  }
+  .reservationshtml header .navigation ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #95969c;
+    transition: 0.4s;
+  }
+  .reservationshtml header .navigation a:hover {
+    border-top: 2px solid orange;
+  }
+  .reservationshtml input, .reservationshtml select, .reservationshtml textarea {
     border: 2px solid #95969c;
   }
-  .reservationhtml div.elem-group.inlined input {
+  .reservationshtml div.elem-group.inlined input {
     width: 33%;
   }
-  .reservationhtml textarea {
+  .reservationshtml textarea {
     height: 250px;
     width: 500px;
     color: #95969c;
   }
-  .reservationhtml button {
+  .reservationshtml button {
     padding: 1%;
   }
-  .reservationhtml button:hover {
+  .reservationshtml button:hover {
     color: orange;
     background-color: #fbfaf8;
     border: 1px solid orange;
+  }
+  .slide {
+    height: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
