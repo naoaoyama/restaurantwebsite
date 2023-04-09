@@ -299,11 +299,11 @@ ul {
     animation-delay: 5s;
   }
   .slide .srcImage3 {
-    background-image: url("/img/tapas01.jpeg");
+    background-image: url("../img/tapas01.jpeg");
     animation-delay: 10s;
   }
   .slide .srcImage4 {
-    background-image: url("/img/pablova.jpeg");
+    background-image: url("../img/pablova.jpeg");
     animation-delay: 15s;
   }
   /* 20sのうち最初の約5sだけ表示する */
