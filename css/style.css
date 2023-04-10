@@ -317,28 +317,42 @@ ul {
       opacity: 0;
     }
   }
-  .menushtml header {
-    background-image: url("../img/fish.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
+  .menushtml:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/fish.jpeg") center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+  }
+  header {
     height: 50vh;
   }
-  .menushtml header article {
+  header article {
     height: 50vh;
     background-color: rgba(101, 92, 92, 0.5);
   }
-  .menushtml header .title {
+  header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 20vh;
   }
-  .menushtml header h2 {
+  header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
+  }
+  .navigation {
+    background-color: White;
+  }
+  .menupage {
+    background-color: White;
   }
   .menupage article {
     display: flex;
@@ -393,28 +407,39 @@ ul {
   .menupage li {
     font-size: 13px;
   }
-  .giftcardhtml header {
-    background-image: url("../img/wine05.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
+  .giftcardhtml:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/wine05.jpeg") center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+  }
+  header {
     height: 50vh;
   }
-  .giftcardhtml header article {
+  header article {
     height: 50vh;
     background-color: rgba(101, 92, 92, 0.5);
   }
-  .giftcardhtml header .title {
+  header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 20vh;
   }
-  .giftcardhtml header h2 {
+  header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
+  }
+  .giftcards {
+    background-color: white;
   }
   .giftcards > article {
     padding-bottom: 5vh;
@@ -431,28 +456,39 @@ ul {
   .giftcards a {
     color: #95969c;
   }
-  .contactshtml header {
-    background-image: url("../img/wine01.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
+  .contactshtml:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/wine01.jpeg") center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+  }
+  header {
     height: 50vh;
   }
-  .contactshtml header article {
+  header article {
     height: 50vh;
     background-color: rgba(101, 92, 92, 0.5);
   }
-  .contactshtml header .title {
+  header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 20vh;
   }
-  .contactshtml header h2 {
+  header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
+  }
+  .contact {
+    background-color: white;
   }
   .contact > article {
     display: flex;
@@ -489,25 +525,33 @@ ul {
     width: 90%;
     height: 35vh;
   }
-  .reservationshtml header {
-    background-image: url("../img/pexels-quark-studio-3201921.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+  .reservationshtml:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/pexels-quark-studio-3201921.jpg") center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+  }
+  header {
     height: 50vh;
   }
-  .reservationshtml header article {
+  header article {
     height: 50vh;
     background-color: rgba(101, 92, 92, 0.5);
   }
-  .reservationshtml header .title {
+  header .title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 20vh;
   }
-  .reservationshtml header h2 {
+  header h2 {
     font-size: 40px;
     color: #fbfaf8;
     font-weight: 200;
@@ -572,6 +616,7 @@ ul {
     border: 2px solid black;
   }
   .reservations {
+    background-color: white;
     padding-top: 10vh;
   }
   .reservations section {
