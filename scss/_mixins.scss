@@ -3,14 +3,14 @@
   flex-direction: column;
   }
   
-  @mixin flexCgap($direction,$row,$column){
+@mixin flexCgap($direction,$row,$column){
    display: flex;
    flex-direction: $direction;
    row-gap: $row;
    column-gap: $column;
   }
   
-  @mixin flexVariables($direction,$row,$column,$justify,$align){
+@mixin flexVariables($direction,$row,$column,$justify,$align){
    display: flex;
    flex-direction: $direction;
    row-gap: $row;
@@ -19,7 +19,7 @@
    align-items: $align;
   }
   
-  @mixin backImg($img){
+@mixin backImg($img){
    background-image: url($img);
    background-position: center;
    background-repeat: no-repeat;

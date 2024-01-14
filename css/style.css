@@ -397,6 +397,8 @@ ul {
   .menupage img {
     width: 14vh;
     height: 10vh;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .menupage h4,
   .menupage h3,
@@ -821,6 +823,8 @@ ul {
   .menupage img {
     width: 23vh;
     height: 17vh;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .menupage h3 {
     font-size: 22px;
@@ -1003,6 +1007,8 @@ ul {
   .menupage img {
     width: 45vh;
     height: 25vh;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .giftcardhtml header {
     height: 55vh;
